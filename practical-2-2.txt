@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Box Model</title>
+    <style>
+        div {
+            width: 300px;
+            padding: 20px;
+            border: 5px solid black;
+            margin: 30px;
+            background-image: linear-gradient(lightblue, lightgreen);
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        This is a Box Model Example
+    </div>
+
+</body>
+</html>

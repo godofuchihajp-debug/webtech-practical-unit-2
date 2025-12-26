@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Page</title>
+    <style>
+        body {
+            font-size: 16px;
+        }
+
+        .container {
+            width: 100%;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        /* Tablet */
+        @media (min-width: 600px) {
+            body {
+                background-color: lightblue;
+            }
+        }
+
+        /* Desktop */
+        @media (min-width: 900px) {
+            body {
+                background-color: lightgreen;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        Responsive Web Page
+    </div>
+
+</body>
+</html>
